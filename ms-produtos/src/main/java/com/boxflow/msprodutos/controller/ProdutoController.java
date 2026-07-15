@@ -2,7 +2,7 @@ package com.boxflow.msprodutos.controller;
 
 import com.boxflow.msprodutos.entity.Produto;
 import com.boxflow.msprodutos.service.ProdutoService;
-import org.springframework.http.ResponseEntity;
+ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
