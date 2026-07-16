@@ -9,14 +9,14 @@
         <module name="eureka-server" />
         <module name="gateway" />
       </profile>
-      <profile name="Annotation profile for mscaixas" enabled="true">
+      <profile name="Annotation profile for msnotificacoes" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="mscaixas" />
+        <module name="msnotificacoes" />
       </profile>
       <profile name="Annotation profile for msprodutos" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -26,6 +26,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
+        <module name="mscaixas" />
         <module name="msprodutos" />
         <module name="msclientes" />
       </profile>
@@ -37,6 +38,7 @@
       <module name="gateway" options="-parameters" />
       <module name="mscaixas" options="-parameters" />
       <module name="msclientes" options="-parameters" />
+      <module name="msnotificacoes" options="-parameters" />
       <module name="msprodutos" options="-parameters" />
     </option>
   </component>
